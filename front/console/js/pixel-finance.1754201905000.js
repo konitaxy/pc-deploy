@@ -1,4 +1,0 @@
-/*! 
- Build based on melong-console 
- Time : 1754201905000 */
-import{Y as a}from"../assets/pixel-entry-index.1754201905000.js";const t=t=>a({url:"/card/holder/list",method:"post",data:t}),d=t=>a({url:"/card/holder/add",method:"post",data:t}),s=t=>a({url:"/card/cardbin/list",method:"post",data:t}),r=t=>a({url:"/card/cancel",method:"post",data:t}),o=t=>a({url:"/card/add",method:"post",data:t}),l=t=>a({url:"/card/recharge",method:"post",data:t}),e=t=>a({url:"/card/withdraw",method:"post",data:t}),h=t=>a({url:"/card/sync",method:"post",data:t}),p=t=>a({url:"/card/list",method:"post",donNotShowLoading:!0,data:t}),c=t=>a({url:"/wallet/recharge/apply",method:"post",data:t}),m=t=>a({url:"/wallet/withdraw/apply",method:"post",data:t}),i=t=>a({url:"/wallet/withdraw/list",method:"post",data:t}),u=t=>a({url:"/wallet/history",method:"post",data:t});export{s as a,p as b,o as c,d,r as e,c as f,m as g,u as h,i,t as l,l as r,h as s,e as w};

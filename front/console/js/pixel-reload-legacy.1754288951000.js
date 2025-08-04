@@ -1,0 +1,4 @@
+/*! 
+ Build based on melong-console 
+ Time : 1754288951000 */
+System.register(["../assets/pixel-entry-index-legacy.1754288951000.js"],(function(e,t){"use strict";var n,r,s;return{setters:[function(e){n=e.x,r=e.c,s=e.h}],execute:function(){var t={name:"Reload"};e("default",Object.assign(t,{setup:function(e){return n().go(-1),function(e,t){return s(),r("div")}}}))}}}));
