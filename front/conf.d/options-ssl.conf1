@@ -1,5 +1,5 @@
-ssl_certificate /etc/cert/metalposter.crt;
-ssl_certificate_key /etc/cert/metalposter.pem;
+ssl_certificate /etc/cert/pixelcard.cloud.key;
+ssl_certificate_key /etc/cert/pixelcard.cloud.pem;
 ssl_session_cache shared:SSL:10m;
 ssl_session_timeout 1440m;
 ssl_session_tickets off;
