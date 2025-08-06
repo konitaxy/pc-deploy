@@ -35,13 +35,13 @@ db-list:
   log-zap: false
 email:
   to: 510172593@qq.com
-  port: 465
-  from: info@metalposter.com
+  port: 587
+  from: info@pixelcard.cloud
   host: smtp.mandrillapp.com
-  reply-to: support@metalposter.com
+  reply-to: 
   is-ssl: true
-  secret: md-HyJJbduINGR78KhL-Pqwlg
-  nickname: melong_tech
+  secret: md-Q3d_3mucxNEqtIzORQgx6A
+  nickname: pixel_finance
 excel:
   dir: ./resource/excel/
 jwt:

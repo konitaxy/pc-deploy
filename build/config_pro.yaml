@@ -35,8 +35,8 @@ db-list:
   log-zap: false
 email:
   to: 510172593@qq.com
-  port: 465
-  from: 
+  port: 587
+  from: info@pixelcard.cloud
   host: smtp.mandrillapp.com
   reply-to: 
   is-ssl: true
