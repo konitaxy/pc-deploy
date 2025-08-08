@@ -1,0 +1,4 @@
+/*! 
+ Build based on melong-console 
+ Time : 1754652206000 */
+import{u as e,o as a,m as o,v as t,q as n,E as s,c as i,i as l,b as r,w as d,g as p,h as c}from"../assets/pixel-entry-index.1754652206000.js";import m from"./pixel-index.17546522060004.js";import"./pixel-logo-tp.1754652206000.js";import"./pixel-screenfull.1754652206000.js";const u={__name:"admin_snap_login",setup(u){const g=e(),w=o();return a((()=>{w.params.code?t({code:w.params.code}).then((e=>{if(0==e.code){if(window.localStorage.getItem("token")===e.data)return void window.location.replace("/");window.localStorage.setItem("token",e.data),g.setToken(e.data),n.push({name:"Login",replace:!0}),window.location.reload()}})):s.error("Invalid to Login")})),(e,a)=>{const o=p("el-header");return c(),i("div",null,[l(o,null,{default:d((()=>[l(m)])),_:1}),a[0]||(a[0]=r("h1",null,"wait for logining",-1))])}}};export{u as default};
