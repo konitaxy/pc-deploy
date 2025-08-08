@@ -1,4 +1,0 @@
-/*! 
- Build based on melong-console 
- Time : 1754665361000 */
-System.register(["./pixel-bottomInfo.vue_vue_type_style_index_0_lang-legacy.1754665361000.js","../assets/pixel-entry-index-legacy.1754665361000.js"],(function(e,t){"use strict";var n,l,r,i,a,s,c;return{setters:[null,function(e){n=e._,l=e.f,r=e.c,i=e.i,a=e.d,s=e.e,c=e.t}],execute:function(){var t={class:"bottom-info"},o={href:"https://pixelcard.com"};e("default",n({name:"BottomInfo"},[["render",function(e,n,u,d,p,f){var v=l("el-divider");return i(),r("div",t,[a("div",null,[n[0]||(n[0]=a("span",null,"Powered by",-1)),a("span",null,[a("a",o,c(e.$GIN_VUE_ADMIN.appName),1)]),s(v,{direction:"vertical"}),n[1]||(n[1]=a("span",null,"Copyright",-1)),n[2]||(n[2]=a("span",null,[a("a",{href:"https://pixelcard.com"},"Pixelcard tech")],-1))])])}]]))}}}));
