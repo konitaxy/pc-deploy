@@ -97,10 +97,9 @@ zap:
   stacktrace-key: stacktrace
   log-in-console: true
 domain:
-  referral: "https://referral.metalposter.com"
-  artist: "https://artist.metalposter.com"
-  admin: "https://admin.metalposter.com"
-  view: "https://id.metalposter.com"
+  referral: "https://pixelcard.cloud"
+  artist: "https://pixelcard.cloud"
+  admin: "https://admin.pixelcard.com"
 carbin:
   base-url: "https://api.cardbin.io"
   app-id: "1894343052164249928"
