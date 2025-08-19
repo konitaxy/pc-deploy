@@ -1,4 +1,0 @@
-/*! 
- Build based on melong-console 
- Time : 1755580010000 */
-System.register(["./pixel-date-legacy.1755580010000.js","../assets/pixel-entry-index-legacy.1755580010000.js"],function(e,t){"use strict";var n;return{setters:[function(e){n=e.f},null],execute:function(){e("f",function(e){if(null!==e&&""!==e){var t=new Date(e);return n(t,"yyyy-MM-dd hh:mm:ss")}return""}),e("a",function(e){var t=new Date(e);return t.setFullYear(t.getFullYear()+1),n(t,"yyyy-MM-dd")}),e("g",function(e){for(var t=e+"=",n=document.cookie.split(";"),r=0;r<n.length;r++){for(var i=n[r];" "===i.charAt(0);)i=i.substring(1,i.length);if(0===i.indexOf(t))return decodeURIComponent(i.substring(t.length,i.length))}return null}),e("s",function(e,t,n){var r,i=new Date;i.setTime(i.getTime()+24*n*60*60*1e3),r="; expires="+i.toUTCString(),document.cookie=e+"="+encodeURIComponent(t)+r+"; path=/"})}}});
