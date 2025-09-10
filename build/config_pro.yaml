@@ -54,7 +54,7 @@ local:
   path: uploads/file
 mysql:
   config: charset=utf8mb4&parseTime=True&loc=Local
-  path: pixel-pro.cpyuy0kkszsz.ap-east-1.rds.amazonaws.com
+  path: pixel-pro.cxiaoy2463jf.ap-east-1.rds.amazonaws.com
   db-name: ucard
   username: admin
   password: Tomcat!Tompig
