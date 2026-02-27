@@ -1,4 +1,0 @@
-/*! 
- Build based on melong-console 
- Time : 1770710704000 */
-System.register([],function(e,a){"use strict";return{execute:function(){var e=document.createElement("style");e.textContent=".card-container[data-v-50672292]{width:100%;max-width:354px;aspect-ratio:1.586 / 1;padding:clamp(1rem,5%,2rem);background:linear-gradient(342deg,#385dee,#21eadf);box-shadow:0 1px 20px rgba(133,137,151,.2);border-radius:16px;color:#fff;font-family:sans-serif;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}.pane-cardDetails[data-v-50672292]{padding:1rem}.data-item[data-v-50672292]{background-color:#f8f8f8;border-radius:12px;padding:1rem}@media (max-width: 768px){.pane-cardDetails[data-v-50672292]{padding:0}.card-actions-container[data-v-50672292]{padding:1rem}}\n/*$vite$:1*/",document.head.appendChild(e)}}});
