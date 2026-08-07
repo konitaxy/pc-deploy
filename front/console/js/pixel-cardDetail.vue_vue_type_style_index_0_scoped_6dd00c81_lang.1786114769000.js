@@ -1,0 +1,4 @@
+/*! 
+ Build based on melong-console 
+ Time : 1786114769000 */
+import{g as e}from"./pixel-finance.1786114769000.js";function l(e){var l;return!!(null==(l=null==e?void 0:e.address)?void 0:l.trim())}function n(e){var l,n,t,r,o,i,a,s,u,d;if(!e)return null;const c="HK"===e.region||"HKG"===e.countryCode;return{region:c?"HKG":"USA",countryCode:e.countryCode||(c?"HKG":"USA"),firstName:null!=(l=e.firstName)?l:"",lastName:null!=(n=e.lastName)?n:"",email:null!=(t=e.email)?t:"",mobilePrefix:null!=(r=e.mobilePrefix)?r:c?"+852":"+1",mobile:null!=(o=e.mobile)?o:"",birthDate:null!=(i=e.birthDate)?i:"",state:null!=(a=e.state)?a:"",city:null!=(s=e.city)?s:"",postcode:null!=(u=e.postcode)?u:"",address:null!=(d=e.address)?d:""}}async function t(l=""){const t=await e({regionCode:l});if(0!==t.code)throw new Error(t.msg||"failed");return n(t.data)}export{l as h,t as l,n as m};
